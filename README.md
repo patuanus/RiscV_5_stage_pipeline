@@ -25,10 +25,10 @@ RISC – V is potentially suitable for various applications ranging from micro-p
 
 # Mircoarchitecture
 This is schematic of design which written by using draw.io
-![Sơ đồ RISCV](/images/RISCV_architecture.png)
+![Sơ đồ RISCV](/image/RISCV_architecture.png)
 
 Instruction set of the processor
-![Instruction set](/images/Instruction_set.png)
+![Instruction set](/image/Instruction_set.png)
 
 # Tool Used 
 * Vscode
@@ -47,12 +47,12 @@ Instruction set of the processor
 * Debug and verify
 
 # Critical Path
-![Instruction set](/images/RISCV_architecture_critical_path.png)
+![Instruction set](/image/RISCV_architecture_critical_path.png)
 
 # Calculation of Max Frequency 
 At this phase all the calculation based on reference book that didn't contain any delay from cell types in the library at synthesis phase
-![Instruction set](/images/table_for_calculation.png)
-![Instruction set](/images/Calculation.png)
+![Instruction set](/image/table_for_calculation.png)
+![Instruction set](/image/Calculation.png)
 
 # Hazard Handling
 Occurs when an instruction depends on the results of the previous instruction which is not yet completed.
