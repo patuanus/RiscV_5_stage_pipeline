@@ -51,6 +51,7 @@ Instruction set of the processor
 
 # Calculation of Max Frequency 
 At this phase all the calculation based on reference book that didn't contain any delay from cell types in the library at synthesis phase
+
 ![Instruction set](/image/table_for_calculation.png)
 ![Instruction set](/image/Calculation.png)
 
@@ -68,5 +69,6 @@ Occurs when an instruction depends on the results of the previous instruction wh
 
 # References
 [1] Digital Design and Computer Architecture RISC-V Edition by Sarah Harris, David Harris
+
 [2] Computer Organization and Design The Hardware Software Interface [RISC-V Edition] by David A. Patterson, John L. Hennessy
 
