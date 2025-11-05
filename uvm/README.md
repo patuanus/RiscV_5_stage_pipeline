@@ -6,3 +6,11 @@ This phase focuses on verifying a 5-stage pipelined RISC-V processor using the U
 
 # Supported Instruction Types
 
+| Instruction Type | Abbreviations |
+|---|---|
+| I-type | lw, slli, srli, srai, jalr, addi, slti, xori, ori, andi |
+| R-type | add, sub, sll, slt, xor, srl, sra, or, and |
+| B-type | beq, blt, bge, bne |
+| S-type | sw |
+| U-type | auipc, lui |
+| J-type | jal |
