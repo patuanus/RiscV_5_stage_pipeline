@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx//etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib:/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/bin/vcsfind_create_index.exe  -z  "/opt/source/riscv/uvm/01_trial/Run_files/simv.daidir/debug_dump/fsearch/./idents_GbVP7s.xml.gz" "/opt/source/riscv/uvm/01_trial/Run_files/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/opt/source/riscv/uvm/01_trial/Run_files/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/opt/source/riscv/uvm/01_trial/Run_files/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/opt/source/riscv/uvm/01_trial/Run_files/simv.daidir/debug_dump/fsearch/fsearch.db"

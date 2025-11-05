@@ -1,0 +1,4 @@
+DPI_STUB_OBJS += ./../simv.daidir/vc_hdrs.o
+./../simv.daidir/vc_hdrs.o: ./../simv.daidir/vc_hdrs.c
+	@$(CC) -I/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx//include  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC    -I/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/include  -fPIC -c -o ./../simv.daidir/vc_hdrs.o ./../simv.daidir/vc_hdrs.c
+	@strip -g ./../simv.daidir/vc_hdrs.o

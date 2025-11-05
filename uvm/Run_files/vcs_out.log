@@ -1,0 +1,18 @@
+Command: vcs -sverilog -ntb_opts uvm-1.2 -f files.f -cm line+fsm+tgl+branch+cond \
+-timescale=1ns/1ps +vcs+flush+all -full64 +vc -q +v2k -fsdb -debug_access+all -l \
+vcs_out.log
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-fsdb' will be deprecated in a future release.  Please use 
+  '-debug_acc+dmptf -debug_region+cell+encrypt' instead.
+
+VCS Coverage Metrics Release O-2018.09-SP2-2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+14 modules and 0 UDP read.
+make[1]: Entering directory '/opt/source/riscv/uvm/01_trial/Run_files/csrc'
+g++ -w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/include \
+-c /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx//etc/uvm-1.2/dpi/uvm_dpi.cc
+g++ -w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/include \
+-c /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx//etc/uvm-1.2/verdi/dpi/uvm_verdi_dpi.cpp \
+
+../simv up to date
+make[1]: Leaving directory '/opt/source/riscv/uvm/01_trial/Run_files/csrc'

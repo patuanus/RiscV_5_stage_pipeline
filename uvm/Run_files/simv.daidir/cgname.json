@@ -1,0 +1,104 @@
+{
+    "uvm_custom_install_recording": [
+        "uvm_custom_install_recording",
+        "nhiwz",
+        "module",
+        7
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "intf": [
+        "intf",
+        "k6LTY",
+        "module",
+        15
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "mux3": [
+        "mux3",
+        "rsgQu",
+        "module",
+        10
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "flopr": [
+        "flopr",
+        "RCrG2",
+        "module",
+        12
+    ],
+    "_vcs_unit__2373574078": [
+        "_vcs_unit__2373574078",
+        "AhBAN",
+        "module",
+        3
+    ],
+    "_vcs_msglog": [
+        "_vcs_msglog",
+        "zQBzV",
+        "module",
+        6
+    ],
+    "risc_top": [
+        "risc_top",
+        "qGpvC",
+        "module",
+        13
+    ],
+    "tb_top": [
+        "tb_top",
+        "jdPWL",
+        "module",
+        16
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        17
+    ],
+    "uvm_custom_install_verdi_recording": [
+        "uvm_custom_install_verdi_recording",
+        "EbjT3",
+        "module",
+        8
+    ],
+    "mux2": [
+        "mux2",
+        "i3rNP",
+        "module",
+        9
+    ],
+    "mux4": [
+        "mux4",
+        "s6Cv4",
+        "module",
+        11
+    ],
+    "risc_pkg": [
+        "risc_pkg",
+        "HQWcQ",
+        "module",
+        14
+    ]
+}
